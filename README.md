@@ -30,3 +30,40 @@ graph LR
     C -->|Math & Stats| D[Statistical Context]
     D --> E[Decision Core]
     E -->|Business Rules| F[Actionable Event]
+
+
+Componentes Principales
+Core Engine: Orquestador de decisiones basado en estados.
+
+Feature Library: Librería matemática pura (sin dependencias pesadas) para cálculo estadístico (Z-Score, RSI, Rolling StdDev).
+
+Adapters: Capa de abstracción que normaliza datos de fuentes heterogéneas (SQL, REST APIs, WebSockets).
+
+📂 Estructura del Proyecto
+Plaintext
+
+DecisionCore/
+├── core/
+│   ├── adapters/         # Conectores a fuentes de datos (SQL, APIs)
+│   ├── engine.py         # Cerebro de la toma de decisiones
+│   ├── features.py       # Motor matemático y estadístico
+│   └── interfaces.py     # Contratos y Definiciones de Tipos
+├── main.py               # Punto de entrada (Demo Enterprise)
+├── requirements.txt      # Dependencias ligeras
+└── README.md             # Documentación
+🛠️ Instalación y Uso
+Bash
+
+# 1. Clonar el repositorio
+git clone [https://github.com/CienciaEstelar/DecisionCore.git](https://github.com/CienciaEstelar/DecisionCore.git)
+cd DecisionCore
+
+# 2. Instalar dependencias
+pip install -r requirements.txt
+
+# 3. Ejecutar simulación
+python main.py
+👨‍💻 Autor
+Juan de Dios Estudiante de Ingeniería de Ejecución en Computación e Informática (USACH) Software Engineer & Data Scientist | Physics Enthusiast
+
+Apasionado por la intersección entre la Física Computacional y la Ingeniería de Software. Enfocado en crear sistemas resilientes, escalables y eficientes para la industria moderna.
