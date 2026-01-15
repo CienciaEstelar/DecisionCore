@@ -1,6 +1,6 @@
 # DecisionCore: High-Frequency Event Analysis Engine ⚡
 
-**DecisionCore** es un motor de inferencia de eventos en tiempo real, diseñado para detectar anomalías y facilitar la toma de decisiones automatizada en entornos de alta incertidumbre.
+**DecisionCore** es un motor de inferencia de eventos en tiempo real, diseñado para detectar anomalías y facilitar la toma de decisiones automatizada en entornos de alta incertidumbre. 
 
 Originalmente concebido para manejar la latencia crítica del Trading de Alta Frecuencia (HFT), su arquitectura ha evolucionado hacia un diseño **agnóstico al dominio**, desacoplando completamente la **Ingesta de Datos** de la **Lógica de Negocio**. Esto permite su implementación en Logística, IoT Industrial y Fintech con cambios mínimos de configuración.
 
@@ -25,8 +25,8 @@ El sistema implementa patrones de diseño robustos (**Adapter**, **Strategy**, *
 
 ```mermaid
 graph LR
-    A[Data Source\n(SQL / API / IoT)] -->|Adapter Interface| B(Normalized Data Snapshot)
+    A["Data Source<br/>(SQL / API / IoT)"] -->|Adapter Interface| B(Normalized Data Snapshot)
     B --> C{Feature Engine}
     C -->|Math & Stats| D[Statistical Context]
-    D --> E{Decision Core}
+    D --> E[Decision Core]
     E -->|Business Rules| F[Actionable Event]
