@@ -1,4 +1,4 @@
-```markdown
+
 # DecisionCore: Event-Driven Decision Engine ⚡
 
 **DecisionCore** es un motor de inferencia de eventos en tiempo real, diseñado para detectar anomalías y facilitar la toma de decisiones automatizadas en entornos de alta incertidumbre.
