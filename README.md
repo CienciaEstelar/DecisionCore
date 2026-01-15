@@ -1,10 +1,3 @@
-perfecto, entendido al 100% 👍
-Te lo entrego **en EXACTAMENTE ese formato**, **completo**, **bien renderizable en GitHub**, y **todo dentro de un único cuadro**, sin salirme del bloque en ningún momento.
-
-👉 Puedes **copiar–pegar directo** a `README.md`.
-
----
-
 ```markdown
 # DecisionCore: Event-Driven Decision Engine ⚡
 
