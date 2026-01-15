@@ -47,9 +47,10 @@ graph LR
     C -->|Math & Stats| D[Statistical Context]
     D --> E[Decision Core]
     E -->|Business Rules| F[Actionable Event]
+
 ````
 
----
+
 
 ## 🧩 Componentes Principales
 
