@@ -107,4 +107,3 @@ Software Engineer & Data Scientist | Physics Enthusiast
 Apasionado por la intersección entre la **Física Computacional** y la **Ingeniería de Software**, enfocado en la creación de sistemas **resilientes**, **escalables** y **eficientes** para la industria moderna.
 
 ```
-```
