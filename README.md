@@ -47,10 +47,9 @@ graph LR
     C -->|Math & Stats| D[Statistical Context]
     D --> E[Decision Core]
     E -->|Business Rules| F[Actionable Event]
-
 ````
 
-
+---
 
 ## 🧩 Componentes Principales
 
@@ -107,4 +106,5 @@ Software Engineer & Data Scientist | Physics Enthusiast
 
 Apasionado por la intersección entre la **Física Computacional** y la **Ingeniería de Software**, enfocado en la creación de sistemas **resilientes**, **escalables** y **eficientes** para la industria moderna.
 
-
+```
+```
